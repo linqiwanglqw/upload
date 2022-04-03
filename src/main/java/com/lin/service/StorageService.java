@@ -10,7 +10,7 @@ import java.io.IOException;
 public interface StorageService {
 
     /**
-     * 上传文件方法1
+     * 上传文件方法
      *
      * @param param
      * @throws IOException
