@@ -1,7 +1,7 @@
 breakpoint:
   upload:
     dir: D:/data0/uploads/
-    #1024*1024=1048576 5M=5242880
+    #1024*1024=1048576 5M=5242880=5242880byte=5byte*1024*1024=5k*1024=5M
     chunkSize: 5 242 880
 spring:
   redis:

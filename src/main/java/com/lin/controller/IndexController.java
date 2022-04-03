@@ -89,7 +89,6 @@ public class IndexController {
         if (isMultipart) {
             log.info("上传文件start!");
             try {
-                // 方法1
                  storageService.uploadFileRandomAccessFile(param);
             } catch (IOException e) {
                 e.printStackTrace();
